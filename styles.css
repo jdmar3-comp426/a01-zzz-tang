@@ -1,7 +1,54 @@
-h1, li {
+a, h1 {
   font-family: 'Space Mono', monospace;
 }
 
-p, blockquote {
+blockquote, p {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1, .navigation {
+  text-align: center;
+}
+
+.information {
+  margin: auto;
+  width: 500px;
+  max-width: 80%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#current {
+  border: 0.1em solid rgb(100, 100, 100);
+}
+
+#current:hover{
+  background-color: rgb(78, 17, 0);
+  color: rgb(255, 255, 255);
+}
+
+.navigation {
+  margin-bottom: 3em;
+}
+
+.navigation a {
+  border-bottom: 0.1em solid rgb(100, 100, 100);
+  margin: 0em 1em 0em 1em;
+  padding: 0em 0.5em 0.2em 0.5em;
+  text-decoration: none;
+}
+
+a:active, a:link, a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color:rgb(206, 110, 0);
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  border-bottom-color: rgb(200, 200, 200);
 }
