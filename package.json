@@ -1,0 +1,22 @@
+{
+  "name": "a01-zzz-tang",
+  "version": "1.0.0",
+  "description": "A webpage about Ratatoskr",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmar3-comp426/a01-zzz-tang.git"
+  },
+  "author": "Ziyun Tang",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/jdmar3-comp426/a01-zzz-tang/issues"
+  },
+  "homepage": "https://github.com/jdmar3-comp426/a01-zzz-tang#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
